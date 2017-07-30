@@ -1,0 +1,501 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	box-shadow: -2px 0px 0px #e2e2e2;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body, header {
+	margin-left: 28px;
+}
+header {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	height: 47px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	background-color: white;
+}
+header:before,
+header:after {
+  content: "";
+  display: table;
+}
+header:after {
+  clear: both;
+}
+header {
+  clear: both;
+  *zoom: 1;
+}
+header nav li {
+	display: inline-block;
+}
+.leftnav img {
+	width: 57px;
+	height: 20px;
+}
+#section {
+	width: 105px;
+	height: 32px;
+	margin-right: 20px;
+}
+#home, #search {
+	position: relative;
+	bottom: 7px;
+}
+#home {
+	margin-right: 10px;
+}
+#title {
+	width: 200px;
+	height: 32px;
+	margin-top: 10px;
+}
+#tools {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 3px;
+}
+.leftnav {
+	float: left;
+	margin-right: 270px;
+	margin-top: 10px;
+}
+.rightnav {
+	float: right;
+	margin-right: 60px;
+	margin-top: 9px;
+}
+.rightnav li {
+	margin-right: 5px;
+}
+#sub {
+	width: 112px;
+	height: 32px;
+	background-color: #6288A5;
+	border-radius: 3px;
+	color: white;
+	border: none;
+}
+#log {
+	width: 55px;
+	height: 32px;
+	background-color: #6288A5;
+	border-radius: 3px;
+	color: white;
+	border: none;
+}
+#sub:hover, #log:hover {
+	cursor: pointer;
+}
+.articles {
+	margin-top: 60px;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 5px;
+}
+.articles figcaption:hover {
+	text-decoration: underline;
+}
+.articles li {
+	display: inline-block;
+	border-right: 1px solid #e2e2e2;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.articles figcaption {
+	float: right;
+	color: #333;
+	font-size: 15px;
+	margin-right: 5px;
+}
+figure img {
+	width: 68px; 
+	height: 68px;
+	margin-right: 5px;
+}
+#lasttopcaption {
+	margin-right: 25px;
+}
+main {
+	margin: 0 auto;
+	margin-top: 120px;
+	border-top: 1px solid black;
+	width: 1127px;
+}
+#sec {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+#sec > a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+#sec > a:hover {
+	text-decoration: underline;
+}
+main h1 {
+	font-size: 34px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e2e2e2;
+	font-weight: 700;
+}
+.before img {
+	width: 28px;
+	height: 28px;
+}
+.before:before,
+.before:after {
+  content: "";
+  display: table;
+}
+.before:after {
+  clear: both;
+}
+.before {
+  clear: both;
+  *zoom: 1;
+}
+.before ul {
+	float: right;
+}
+.before li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.before p {
+	position: relative;
+	top: 20px;
+	font-size: 12px;
+}
+.before span a {
+	text-decoration: none;
+	color: black;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.before span a:hover {
+	text-decoration: underline;
+}
+.before #cm:hover {
+	cursor: pointer;
+}
+#forward {
+	border-right: 1px solid #e2e2e2;
+	padding-right: 15px;
+}
+#guy {
+	width: 1127px;
+	height: 630px;
+	margin-top: 15px;
+}
+.guy {
+	margin-bottom: 50px;
+}
+.guy figcaption {
+	color: #666;
+	margin-top: 5px;
+}
+article {
+	width: 571px;
+	margin-left: 80px;
+	line-height: 150%;
+}
+article p {
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+article h2 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.gimages {
+	width: 950px;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	margin-bottom: 15px;
+	position: relative;
+	left: -50px;
+}
+.gimages h2 {
+	font-size: 18px;
+}
+.gimages span {
+	font-weight: bold;
+}
+.theory li {
+	display: inline-block;
+	margin-right: 17px;
+}
+.theory img {
+	width: 180px;
+	height: 115px;
+}
+.theory figcaption {
+	font-size: 12px;
+}
+iframe {
+	position: relative;
+	left: -50px;
+}
+#vd {
+	margin-bottom: 20px;
+}
+#vd figcaption {
+	font-size: 13px;
+	color: #666;
+}
+#sat {
+	position: relative;
+	left: -50px;
+	margin-bottom: 20px;
+}
+#sat img {
+	width: 650px;
+	height: 435px;
+}
+#sat figcaption {
+	color: #666;
+	font-size: 13px;
+}
+#comments {
+	font-size: 11px;
+	position: absolute;
+	left: 900px;
+}
+#comments a {
+	text-decoration: none;
+	color: gray;
+}
+#comments p a {
+	color: #326891;
+	font-size: 12px;
+}
+#comments li {
+	margin-bottom: 8px;
+}
+#comments span {
+	color: black;
+	font-weight: bold;
+}
+#thirdcomment {
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 10px;
+}
+#comments #see {
+	color: #326891;
+}
+#see:hover {
+	text-decoration: underline;
+}
+.other {
+	width: 707px;
+	border-top: 1px solid #e2e2e2;
+}
+.other p a {
+	color: black;
+	text-decoration: none;
+}
+.other p a:hover {
+	text-decoration: underline;
+}
+.other figure a:hover {
+	cursor: default;
+}
+.other img {
+	width: 213px;
+	height: 144px;
+}
+.other figcaption {
+	font-size: 13px;
+}
+.other figcaption a {
+	color: black;
+	text-decoration: none;
+}
+.other figcaption a:hover {
+	text-decoration: underline;
+}
+.other li {
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-right: 15px;
+}
+.other p {
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 8px;
+}
+.more {
+	border-top: 1px solid #e2e2e2;
+	padding-top: 10px;
+	width: 362px;
+	position: absolute;
+	left: 900px;
+	bottom: -7685px;
+}
+.more img {
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+	position: relative;
+	top: 5px;
+}
+.more h2 {
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	right: 25px;
+}
+.more a {
+	text-decoration: none;
+	color: black;
+}
+.more li {
+	list-style-type: decimal;
+	border-bottom: 1px solid #e2e2e2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.more p {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#viewmore {
+	font-size: 12px;
+	color: #326891;
+	position: relative;
+	right: 20px;
+}
+#viewmore:hover {
+	text-decoration: underline;
+}
+footer {
+	width: 1052px;
+	margin: 0 auto;
+	font-size: 14px;
+	margin-top: 150px;
+	border-top: 2px solid #e2e2e2;
+}
+footer img {
+	margin-bottom: 30px;
+}
+footer ul {
+	display: inline-block;
+}
+footer li:first-child {
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+footer li {
+	margin-bottom: 12px;
+}
+footer a {
+	text-decoration: none;
+	color: #000;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+.news {
+	margin-right: 50px;
+}
+.opin {
+	position: relative;
+	bottom: 25px;
+	margin-right: 30px;
+}
+.arts {
+	position: relative;
+	bottom: 78px;
+	margin-right: 30px;
+}
+.living {
+	margin-right: 30px;
+}
+.listings {
+	margin-right: 90px;
+}
+.fsub {
+	position: relative;
+	bottom: 12px;
+}
+.fsub img {
+	width: 133px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+.smaller {
+	font-size: 11px;
+}
+.final {
+	margin-top: 20px;
+	font-size: 10px;
+}
+.final a {
+	color: #999;
+}
+.final a:hover {
+	text-decoration: underline;
+}
+.final li {
+	display: inline-block;
+	color: #e2e2e2;
+	padding-right: 5px;
+	border-right: 1px solid #e2e2e2;
+}
+.map {
+	margin-left: 140px;
+}
